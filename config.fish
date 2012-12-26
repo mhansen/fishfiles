@@ -18,3 +18,7 @@ end
 function git-num-commits-to-push
     git cherry -v | wc -l
 end
+
+for method in GET HEAD POST PUT DELETE TRACE OPTIONS
+    alias $method "lwp-request -m $method"
+end
