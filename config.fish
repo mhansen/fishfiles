@@ -22,3 +22,5 @@ end
 for method in GET HEAD POST PUT DELETE TRACE OPTIONS
     alias $method "lwp-request -m $method"
 end
+
+fish_vi_mode
