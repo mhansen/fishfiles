@@ -20,5 +20,4 @@ function git-num-commits-to-push
 end
 
 fish_vi_key_bindings
-setxkbmap -option caps:escape
 
