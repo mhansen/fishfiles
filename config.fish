@@ -19,6 +19,6 @@ function git-num-commits-to-push
     git cherry -v | wc -l
 end
 
-fish_vi_mode
+fish_vi_key_bindings
 setxkbmap -option caps:escape
 
