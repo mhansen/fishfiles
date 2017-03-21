@@ -21,3 +21,6 @@ end
 
 fish_vi_key_bindings
 
+if test $TERM != "screen-256color"
+  tmux attach; or tmux
+end
