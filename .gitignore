@@ -3,3 +3,4 @@ fish_history.*
 fishd.*
 completions
 fish_read_history
+fish_variables
